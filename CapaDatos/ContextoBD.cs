@@ -9,10 +9,12 @@ namespace CapaDatos
             : base("name=ContextoBD")
         {
         }
-
+        //Cambios de prueba
 
         public virtual DbSet<Venta> Ventas { get; set; }
         public virtual DbSet<Producto> Productos { get; set; }
         public virtual DbSet<DetalleVenta> DetalleVentas { get; set; }
+
+#
     }
 }
